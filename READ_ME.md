@@ -18,3 +18,14 @@ git pull --rebase origin master
 
 ```
 
+## ssh command
+
+```
+git init 
+git add .
+git commit -m "XXXX"
+git remote add origin git@github.com:hyw-zero
+git pull <remote> <branch>
+git push origin main
+```
+
