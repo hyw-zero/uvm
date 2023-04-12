@@ -1,6 +1,6 @@
-# UVM 
+# 验证文档
 
-### 1.存放uvm 源码 和 systemc 文档
+### 1.存放验证文档
 
 
 
@@ -25,7 +25,7 @@ git init
 git add .
 git commit -m "XXXX"
 git remote add origin git@github.com:hyw-zero
-git pull <remote> <branch>
+git pull origin <branch>
 git push origin main
 ```
 
@@ -38,7 +38,7 @@ git branch
 git branch <branchname>
 #切换分支命令
 git checkout <branchname>
-git pull <remote> <branch>
+git pull origin <branch>
 git push origin main
 ```
 
