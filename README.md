@@ -20,11 +20,24 @@ git pull --rebase origin master
 
 ## ssh command
 
-```
+```bash
 git init 
 git add .
 git commit -m "XXXX"
 git remote add origin git@github.com:hyw-zero
+git pull <remote> <branch>
+git push origin main
+```
+
+## git branch
+
+```bash
+#列出分支命令
+git branch
+#创建分支命令
+git branch <branchname>
+#切换分支命令
+git checkout <branchname>
 git pull <remote> <branch>
 git push origin main
 ```
