@@ -15,7 +15,10 @@ git pull origin master
 git remote -v
 #冲突合并
 git pull --rebase origin master
-
+#查看远程分支
+git branch -a
+#切换分支
+git checkout -b
 ```
 
 ## ssh command
