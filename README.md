@@ -1,6 +1,6 @@
-# 验证文档
+# UVM 
 
-### 1.存放验证文档
+### 1.存放uvm 源码 和 systemc 文档
 
 
 
@@ -15,30 +15,22 @@ git pull origin master
 git remote -v
 #冲突合并
 git pull --rebase origin master
-
+#查看远程分支
+git branch -a
+#查看本地分支
+git branch 
+#切换分支
+git checkout <branch> 
 ```
 
 ## ssh command
 
-```bash
+```
 git init 
 git add .
 git commit -m "XXXX"
 git remote add origin git@github.com:hyw-zero
-git pull origin <branch>
-git push origin main
-```
-
-## git branch
-
-```bash
-#列出分支命令
-git branch
-#创建分支命令
-git branch <branchname>
-#切换分支命令
-git checkout <branchname>
-git pull origin <branch>
+git pull <remote> <branch>
 git push origin main
 ```
 
