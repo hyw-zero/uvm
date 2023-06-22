@@ -17,13 +17,15 @@ git remote -v
 git pull --rebase origin master
 #查看远程分支
 git branch -a
+#查看本地分支
+git branch 
 #切换分支
-git checkout -b
+git checkout <branch> 
 ```
 
 ## ssh command
 
-```
+```shell
 git init 
 git add .
 git commit -m "XXXX"
