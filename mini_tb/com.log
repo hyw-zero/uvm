@@ -1,0 +1,21 @@
+Command: vcs -full64 +vcs+lic+wait -sverilog -debug_access+all -lca -kdb -timescale=1ns/1ns \
+-ntb_opts uvm-1.2 ./uvm_test.sv -l com.log
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Wed Dec  7 22:52:32 2022
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS/VCS-MX Release Notes
+
+The design hasn't changed and need not be recompiled. 
+If you really want to, delete file simv.daidir/.vcs.timestamp and
+run VCS again.
+
