@@ -1,0 +1,505 @@
+
+/*
+** Font families
+*/
+BODY,H1,H2,H3,H4,H5,H6,P,CENTER,TD,TH,UL,DL,DIV {
+       font-family: Arial, Helvetica, sans-serif;
+       color: #444444;
+}
+
+/*
+** Heading colors
+*/
+H1,H2,H3,H4,H5,H6 {
+       color: #6699CC;
+}
+
+/*
+** Font sizes
+*/
+BODY,TD {
+  font-size: 90%;
+}
+
+H1 {
+  text-align: center;
+  font-size: 160%;
+}
+
+H2 {
+  font-size: 120%;
+}
+
+H3 {
+  font-size: 100%;
+}
+
+CAPTION {
+  font-weight: bold
+}
+
+
+/*
+** Copyright notice
+*/
+ADDRESS.copyright {
+  width: 100%;
+  text-align: left;
+  font-weight: normal;
+  color: #444444;
+  font-style: italic;
+  font-size: 80%;
+  margin: 2px;
+  padding: 2px;
+  line-height: 100%;
+}
+
+
+/*
+** Inheritance class list
+*/
+A.inhlist {
+  text-decoration: none;
+  color: #1A41A8;
+  font-weight: bold
+}
+
+A.inhlist:visited {
+  text-decoration: none;
+  color: #0A4880;
+  font-weight: bold
+}
+
+A.inhlist:hover {
+  text-decoration: none;
+  background-color: #FFFFC0;
+  color: #1A41A8;
+  font-weight: bold;
+}
+
+A.inhlist Div {
+    display: none;
+}
+ 
+A.inhlist:hover DIV {
+    position:absolute;
+    display: block;
+    border:1px solid #000;
+    background: #FFFFE0;
+    color:#000;
+    text-align: left;
+    font-family : Arial;
+    font-size : 70%;
+    padding : 3px; 
+}
+
+A.inhlistHL {
+  text-decoration : none;
+  font-size       : 110%;
+  color           : #1A41A8;
+  background-color: #E0E0F0;
+  font-weight     : bold;
+  padding-left    : 4px;
+  padding-right   : 4px;
+}
+
+A.inhlistHL:visited {
+  text-decoration : none;
+  color           : #0A4880;
+  font-weight     : bold;
+  padding-left    : 4px;
+  padding-right   : 4px;
+}
+
+A.inhlistHL:hover {
+  text-decoration : none;
+  color           : #1A41A8;
+  background-color: #FFFFC0;
+  font-weight     : bold;
+  padding-left    : 4px;
+  padding-right   : 4px;
+}
+
+/*
+** ALPHA index chars  (white text on black)
+*/
+DIV.alphalist {
+  width: 100%;
+  background-color: #e8eef6;
+  border: 1px solid #84b0c7;
+  text-align: center;
+  margin: 2px;
+  padding: 2px;
+  line-height: 140%;
+}
+
+A.alphalist {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1A41A8;
+}
+
+A.alphalist:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0A4880;
+}
+
+A.alphalist:hover {
+  text-decoration: none;
+  background-color: #FFFFC0;
+}
+
+
+TABLE.SearchResults {
+  color           : #666666;
+  background-color: #FFF8FC;
+  border: none;
+  padding: 0px 0px 0px 0px;
+  text-decoration: none;
+}
+
+TD.SearchResults {
+  padding           : 4px 4px 4px 4px;
+  margin            : 4px; 
+  border-right-width: 4px;
+  border-right-color: white;
+  border-right-style: solid;
+  color             : #666666;
+  background-color  : #F4F4F4;
+  font-size         : 80%;
+}
+
+A.SearchResults:link {
+  text-decoration   : none;
+  color             : #040440;
+}
+A.SearchResults:visited {
+  text-decoration   : none;
+  color             : #040440;
+}
+
+
+TABLE.indexlist {
+  background-color: #F4F4F4;
+  border: none;
+  width: 95%;
+  padding: 0px 10px 0px 10px;
+}
+
+TD.MemberListLeft Div {
+    display: none;
+}
+
+TD.MemberListLeft:hover DIV {
+    position:absolute;
+    display: block;
+    border:1px solid #000;
+    background: #FFFFE0;
+    color:#000;
+    text-align: left;
+    font-family : Arial;
+    font-size : 80%;
+    padding : 3px; 
+}
+
+TD.indexkey {
+  width: 100%; 
+  color: white;
+  background-color: #666666;
+  font-weight: bold;
+  font-size: 80%;
+  text-align: center;
+  padding: 2px 20px 2px 20px;
+}
+
+DIV.indexkey {
+  width: 100%; 
+  line-height: 140%;
+  color: #6699CC;
+  background-color: white;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+/*
+** Member Item List stuff
+**
+** padding: top right bottom left
+*/
+.MemberListLeft, .FixedMemberList{
+  padding: 4px 4px 4px 4px;
+  margin: 4px; 
+  border-right-width: 4px;
+  border-right-color: white;
+  border-right-style: solid;
+  background-color: #F4F4F4;
+  font-size: 80%;
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */    
+  white-space: -o-pre-wrap; /* Opera 7 */    
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+/*
+** Fix the column width of a table and wrap the long text
+*/
+.FixedMemberList{ 
+  vertical-align: middle;
+  text-align: left; 
+}
+
+.MemberListRight {
+  padding: 4px 4px 4px 8px;
+  margin: 4px;
+  width: 100%;
+  background-color: #F4F4F4;
+  font-size: 80%;
+}
+
+A.ClassLink:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1A41A8;
+}
+
+A.ClassLink:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0A4880;
+}
+
+A.ClassLink:hover {
+  background-color: #FFFFC0;
+}
+
+
+A.RefLink:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1AA841;
+}
+
+A.RefLink:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0A8048;
+}
+
+A.RefLink:hover {
+  background-color: #FFFFC0;
+}
+
+/*
+** Class Member Doc Table
+*/
+.clmdTable {
+  border: 1px solid #a0a0a0;
+  background-color: #F4F4F4;
+}      
+
+.clmdRow {
+}
+
+TD.clmd {
+}
+
+TR.cgpRow:hover {
+    color: #FFFFC0;
+    background-color: #FFFFC0;
+}
+
+TR.cgpRow:hover td {
+    background-color: transparent;
+}
+
+/*
+** MemberList
+*/
+TR.memlist {
+  background-color: #F4F4F4;
+}
+
+TD.memlist {
+  padding: 0px 2px 0px 2px;
+}
+
+/*
+** Source file location
+*/
+A.sfloc:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1A41A8;
+}
+
+A.sfloc:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0A4880;
+}
+
+A.sfloc:hover {
+  background-color: #FFFFC0;
+}
+
+.pre20 {
+  padding: 20px 0px 0px 0px;
+}
+
+/*
+** Component key and value fields (interfaces & modules)
+*/
+TD.compblank {
+	background-color: white;
+}
+
+TD.compkey {
+  background-color: #F4F4F4;
+  /*font-weight: bold; */
+  padding-right  : 10px;
+  padding-top    : 2px;
+  padding-left   : 10px;
+  padding-bottom : 2px;
+  margin-left    : 0px;
+  margin-right   : 0px;
+  margin-top     : 2px;
+  margin-bottom  : 2px;
+}
+TD.compkey1 {
+  background-color: #EEEEEE;
+  padding-right  : 10px;
+  padding-top    : 2px;
+  padding-left   : 10px;
+  padding-bottom : 2px;
+  margin-left    : 0px;
+  margin-right   : 0px;
+  margin-top     : 2px;
+  margin-bottom  : 2px;
+}
+TD.compvalue {
+  background-color: #F4F4F4;
+  font-weight: bold;
+  /*font-style: italic; */
+  padding-right  : 10px;
+  padding-top    : 6px;
+  padding-left   : 10px;
+  padding-bottom : 6px;
+  margin-left    : 0px;
+  margin-right   : 0px;
+  margin-top     : 2px;
+  margin-bottom  : 2px;
+}
+TD.compvalue1 {
+  background-color: #EEEEEE;
+  font-weight: bold;
+  padding-right  : 10px;
+  padding-top    : 2px;
+  padding-left   : 10px;
+  padding-bottom : 2px;
+  margin-left    : 0px;
+  margin-right   : 0px;
+  margin-top     : 2px;
+  margin-bottom  : 2px;
+}
+
+.tsWidth {
+    height:100px;
+    /*width:300px;*/
+    overflow:auto;
+    text-overflow:ellipsis;
+}
+SPAN.comphdr {
+  color          : #6699CC;
+  font-weight    : bold;
+  /*font-style: italic; */
+  font-size      : 100%;
+  padding-right  : 0px;
+  padding-left   : 0px;
+}
+
+
+
+/*
+** Horizontal rule
+*/
+HR {
+  border-top: 1px solid #6699CC;
+}
+
+/*
+** source-code stuff
+*/
+DIV.codefrag {
+  font-family: Fixed, monospace;
+  font-size: 100%;
+  border: 1px solid #a0a0a0;
+  background-color: #EEEEEE;
+  color: black;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  margin-right: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+A.codelink:link {
+  color: #1A41A8;
+}
+
+A.codelink:visited {
+  color: #0A4880;
+}
+
+A.codelink:hover {
+  background-color: #FFFFC0;
+}
+
+SPAN.Invisible {
+  color: #ff0000;
+}
+.multiselect {
+  float:right;
+  width: 130px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.checkboxes {
+  position: absolute;
+  background-color:white;
+  display: none;
+  border: 1px #dadada solid;
+}
+
+.checkboxes label {
+  display: block;
+}
+
+.checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
